@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+body {
+    margin: 0;
+}
+
+.container1 {
+    position: relative;
+    margin: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.back_container {
+    position: absolute;
+    width: 100vw;
+    margin: 0;
+    left: 0;
+    right: 0;
+}
+
+.top {
+    background-color: #009688;
+    height: 25vh;
+    width: 100%;
+}
+
+.bottom {
+    background-color: #D9DBD5;
+    height: 75vh;
+}
+.front_container {
+    position: absolute;
+    background-color: white;
+    top: 5rem;
+    margin: 30px;
+    padding: 50px;
+
+    align-items: center;
+}
+
+
+/* Account Login container */
+
+.account_login {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/* form details  container*/
+.form_css {
+    display: flex;
+    flex-direction: column;
+}
+.sign_signup{
+  background-color: #D9DBD5;
+}
+
+.button_css {
+    text-align: center;
+    width: 200px;
+    height: 10%;
+    margin:0px;
+    padding: 10px;
+    border:none;
+
+}
+
+.input {
+    width: 200px;
+}
+.active{
+  background-color: #009688;
+}
+input[type=text],[type=password] {
+  width: 100%;
+  padding: 9px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 0.1px solid #555;
+  outline: none;
+}
+
+input[type=text],[type=password]:focus {
+  border: 1px solid #009688;
+}
+
+.submit_button {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.btn-success{
+  background-color:  #009688;
+  border: none;
+  color: white;
+  padding: 10px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
